@@ -15,7 +15,7 @@ public class IndexController {
 
     @GetMapping("")
     public String  index(String name) {
-        return "This is hello service";
+        return "This is bye service";
     }
 
 

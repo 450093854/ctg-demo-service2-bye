@@ -11,10 +11,10 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
 
 
-    @RequestMapping("/hello")
-    public String hello(){
+    @RequestMapping("/bye")
+    public String bye(){
 
-        return "Hello,welcome to ctg.";
+        return "Bye,hope to see you again.";
     }
 
 }
